@@ -1,7 +1,7 @@
 # Rövid összefoglalás
---- A változók a programozási nyelvek alapját képezik. Arra szolgálnak, hogy dinamikus adatokat tároljunk bennük, amelyeket később felhasználunk a programunk futása során.
---- Amikor létrehozunk egy változót, a legtöbb esetben megadjuk annak típusát, ebből tudja az értelmező, hogy mekkora helyet foglaljon le számára a memóriában és milyen műveleteket lehet rajta végrehajtani. 
---- A gyengén típusos nyelvekben, mint például a Javascript, nem szükséges megadnunk a típust, ettől függetlenül van típusa a változónknak, csak azt automatikusan rendeli hozzá a kódot futtató értelmező.
+A változók a programozási nyelvek alapját képezik. Arra szolgálnak, hogy dinamikus adatokat tároljunk bennük, amelyeket később felhasználunk a programunk futása során.  
+Amikor létrehozunk egy változót, a legtöbb esetben megadjuk annak típusát, ebből tudja az értelmező, hogy mekkora helyet foglaljon le számára a memóriában és milyen műveleteket lehet rajta végrehajtani.  
+A gyengén típusos nyelvekben, mint például a Javascript, nem szükséges megadnunk a típust, ettől függetlenül van típusa a változónknak, csak azt automatikusan rendeli hozzá a kódot futtató értelmező.  
 Ebben a részben a változókkal, azok típusaival és helyes használatukkal fogunk megismerkedni.
 
 
