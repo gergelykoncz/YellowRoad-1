@@ -15,7 +15,7 @@ __FONTOS: módosítja az eredeti tömböt.__
 
 > A példában a push() és a pop() működését is bemutatjuk:  
   
-![Boolean definíció](/docs/basic/week1/image/variable_types_array_definition.gif)   
+![Boolean definíció](variable_types_array_methods_push_pop.gif)   
 
 ### unshift()
 A push() -hoz hasonlóan működik, csak a tömb elejére ad hozzá új elemet, azaz tolja az elemeket egyel hátrébb.  
@@ -29,7 +29,7 @@ __FONTOS: módosítja az eredeti tömböt.__
 
 > A példában az unshift() és a shift() működését is bemutatjuk:  
   
-![Boolean definíció](/docs/basic/week1/image/variable_types_array_definition.gif)  
+![Boolean definíció](variable_types_array_methods_unshif_shift.gif)  
   
 ### slice()  
 A tömböt vágja. Két számot vár, start és end a nevük.  
@@ -37,13 +37,13 @@ A tömböt vágja. Két számot vár, start és end a nevük.
 - end: azt adja meg hogy melyik elemnél fejezze be a vágást. Ugyanazok igazak rá, mint a start-ra.  
   __FONTOS: nem módosítja az eredeti tömböt, hanem egy új tömbbel tér vissza.__  
   
-![Boolean definíció](/docs/basic/week1/image/variable_types_array_definition.gif)  
+![Boolean definíció](variable_types_array_methods_slice.gif)  
   
 ### join()  
 A tömbből String-et készít, az elemeket vesszővel elválasztva fűzi egymás után.  
 __FONTOS: nem módosítja az eredeti tömböt, hanem egy új String-el tér vissza.__  
   
-![Boolean definíció](/docs/basic/week1/image/variable_types_array_isarray.gif) 
+![Boolean definíció](variable_types_array_methods_join.gif) 
 
 ### Dokumentáció: 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods  
