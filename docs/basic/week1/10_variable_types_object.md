@@ -28,7 +28,9 @@ Az Object.keys tömböt ad vissza, majd annak le is kérjük azonnal a length tu
   
 ![Objektum kulcsok](/docs/basic/week1/image/variable_as_object.gif)  
   
-Itt csak egy metódust tárgyalunk: Object.keys().
-Dokumentáció és példák: 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-10-es számú gyakorlati feladat.
+### Dokumentáció: 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object  
+  
+### Gyakorló feladatok:
+<a href="http://cherryapps.hu/yellow-road" target="_blank">10-es számú gyakorlati feladat.</a>  
+  
