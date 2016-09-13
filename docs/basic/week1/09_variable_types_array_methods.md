@@ -32,8 +32,14 @@ A tömböt vágja. Két számot vár, start és end a nevük.
 - start: azt adja meg, hogy hol kezdje a vágást. Ha 0, akkor a tömb elején kezdi, ha mínusz szám, akkor hátulról fogja számolni.  
 - end: azt adja meg hogy melyik elemnél fejezze be a vágást. Ugyanazok igazak rá, mint a start-ra.  
   __FONTOS: nem módosítja az eredeti tömböt, hanem egy új tömbbel tér vissza.__  
+  
 ![Boolean definíció](/docs/basic/week1/image/variable_types_array_definition.gif)  
-
+  
+### join()  
+A tömbből String-et készít, az elemeket vesszővel elválasztva fűzi egymás után.  
+__FONTOS: nem módosítja az eredeti tömböt, hanem egy új String-el tér vissza.__  
+  
+![Boolean definíció](/docs/basic/week1/image/variable_types_array_isarray.gif) 
 
 ### Dokumentáció: 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods  
