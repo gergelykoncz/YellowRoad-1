@@ -13,7 +13,7 @@ Az alábbi példában egy egyszerű objektumot hozunk létre:
   
 ### Object.keys() - az objektum kulcsai  
 Az objektumok esetén fontos hogy tudjuk mit tároltunk bennük. Amint már említettük, az objektum elemeit  
-a kulcsok segítségével érhetjük el. A kulcsokat pedig Object.keys metódus adja vissza.  
+a kulcsok segítségével érhetjük el. A kulcsokat pedig az Object.keys metódus adja vissza.  
 > Az Object.keys metódus tömb formában adja vissza a kapott objektum kulcsait:  
   
 ![Objektum kulcsok](/docs/basic/week1/image/variable_as_object.gif)  
