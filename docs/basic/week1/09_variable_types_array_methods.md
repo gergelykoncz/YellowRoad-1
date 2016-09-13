@@ -26,6 +26,9 @@ Hatására minden meglévő tömbelem indexe eggyel csökkenni fog.
 > A példában az unshift() és a shift() működését is bemutatjuk:  
   
 ![Boolean definíció](/docs/basic/week1/image/variable_types_array_definition.gif)  
+  
+### na
+
 
 ### Dokumentáció: 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods  
