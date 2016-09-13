@@ -6,10 +6,10 @@ Ebben a részben a változókkal, azok típusaival és helyes használatukkal fo
 
 ## Az önálló tanulás lépései
 Az ismereteket pontokba szedtük. Minden pontot négyféleképpen magyarázunk el:  
-1. Írott formában
-2. Videókkal
-3. Példafeladatokkal
-4. Vizsgafeladattal  
+- Írott formában
+- Videókkal
+- Példafeladatokkal
+- Vizsgafeladattal  
 
 Miután átolvastad a leírást és végignézted a videókat, oldd meg a ponthoz tartozó példafeladatokat, hogy begyakorold az új ismeretet. Ha véletlenül elakadnál, akkor megnézheted a példafeladatok megoldását is, de arra kérlek hogy mindig próbáld meg segítség nélkül megoldani a példákat.  
 Ha végeztél az összes példával, az ismeretanyag végén lesz egy teszt feladat is, amelyet egyedül vagy csoportosan kell megoldanotok.  
