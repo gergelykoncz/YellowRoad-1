@@ -1,4 +1,5 @@
 # Rövid összefoglalás
+--
 A változók a programozási nyelvek alapját képezik. Arra szolgálnak, hogy dinamikus adatokat tároljunk bennük, amelyeket később felhasználunk a programunk futása során.
 --
 Amikor létrehozunk egy változót, a legtöbb esetben megadjuk annak típusát, ebből tudja az értelmező, hogy mekkora helyet foglaljon le számára a memóriában és milyen műveleteket lehet rajta végrehajtani. 
