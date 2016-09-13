@@ -5,12 +5,14 @@ Most csak a legalapvetőekkel foglalkozunk, később a függvények megismerése
 ### push()
 Segítségével új elemet tudunk felvenni a tömb végére. Azaz az így felvett elem a tömbünk utolsó eleme lesz.  
 Fontos, hogy ez a metódus megváltoztatja az eredeti tömböt, azaz nem kell felül definiálnunk ahhoz  
-hogy a módosítások érvénybe lépjenek. Miután a metódus lefutott a tömb új hosszát adja vissza.    
+hogy a módosítások érvénybe lépjenek. Miután a metódus lefutott a tömb új hosszát adja vissza.  
+__FONTOS: módosítja az eredeti tömböt.__ 
 
 ### pop()
 A push() -tól eltérően nem hozzáad, hanem elvesz egy elemet a tömb végéről.  
 A törölt elemet adja vissza és szintén azonnal módosul az eredeti tömb.  
-  
+__FONTOS: módosítja az eredeti tömböt.__  
+
 > A példában a push() és a pop() működését is bemutatjuk:  
   
 ![Boolean definíció](/docs/basic/week1/image/variable_types_array_definition.gif)   
@@ -18,11 +20,13 @@ A törölt elemet adja vissza és szintén azonnal módosul az eredeti tömb.
 ### unshift()
 A push() -hoz hasonlóan működik, csak a tömb elejére ad hozzá új elemet, azaz tolja az elemeket egyel hátrébb.  
 Hatására minden meglévő tömbelem indexe eggyel nőni fog.  
+__FONTOS: módosítja az eredeti tömböt.__ 
 
 ### shift()  
 Ez pedig a pop() párja, egy elemet kivesz a tömb elejéről és a többit eggyel előre tolja.  
 Hatására minden meglévő tömbelem indexe eggyel csökkenni fog.  
-  
+__FONTOS: módosítja az eredeti tömböt.__  
+
 > A példában az unshift() és a shift() működését is bemutatjuk:  
   
 ![Boolean definíció](/docs/basic/week1/image/variable_types_array_definition.gif)  
