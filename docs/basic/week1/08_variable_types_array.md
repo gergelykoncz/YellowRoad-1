@@ -17,7 +17,7 @@ azaz egy tömbön belül különböző típusú elemeket tárolhatunk.
 Új tömböt legegyszerűbben a szögletes zárójelek használatával hozhatunk létre.  
 > Az alábbi példában egy három elemű tömböt definiálunk:  
   
-![Boolean definíció](/docs/basic/week1/image/variable_types_boolean_definition.gif)
+![Boolean definíció](/docs/basic/week1/image/variable_types_array_definition.gif)
 
 ### Hozzáférés a tömb elemeihez, az index
 Amikor elemeket adunk a tömbhöz, a Javascript értelmező automatikusan megszámozza azokat.  
@@ -27,7 +27,7 @@ Azaz a tömb első elemét 0 indexel érjük el, és nem 1-el.
 > A példa azt mutatja meg, hogy egy tömb elemeit hogyan érjük el és hogyan módosítjuk az  
 indexük segítségével:  
   
-![Boolean definíció](/docs/basic/week1/image/variable_types_boolean_definition.gif)  
+![Boolean definíció](/docs/basic/week1/image/variable_types_array_index.gif)  
 
 ### isArray(), tömb azonosítása
 A munkánk során előfordul, hogy meg kell állapítanunk egy változóról hogy Array típusú-e?  
@@ -37,7 +37,7 @@ megállapítja hogy tömb-e?
 > A példában a tömb esetén true értéket kapunk vissza, ami azt jelenti hogy igaz - azaz tömbbel van dolgunk.  
 Ellenkező esetben az eredmény false - hamis - azaz nem tömböt adtunk át az isArray metódusnak:  
   
-![Boolean definíció](/docs/basic/week1/image/variable_types_boolean_definition.gif)  
+![Boolean definíció](/docs/basic/week1/image/variable_types_array_isarray.gif)  
 
 ### Dokumentáció: 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array  
