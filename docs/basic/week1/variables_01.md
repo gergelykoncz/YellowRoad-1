@@ -4,56 +4,18 @@ Amikor létrehozunk egy változót, a legtöbb esetben megadjuk annak típusát,
 A gyengén típusos nyelvekben, mint például a Javascript, nem szükséges megadnunk a típust, ettől függetlenül van típusa a változónknak, csak azt automatikusan rendeli hozzá a kódot futtató értelmező.  
 Ebben a részben a változókkal, azok típusaival és helyes használatukkal fogunk megismerkedni.
 
+# Az önálló tanulás lépései
+Az ismereteket pontokba szedtük. Minden pontot négyféleképpen magyarázunk el:
+1. Írott formában
+2. Videókkal
+3. Példafeladatokkal
+4. Vizsgafeladattal  
 
-## Gyakorlati feladat - láncolt lista
+Miután átolvastad a leírást és végignézted a videókat, oldd meg a ponthoz tartozó példafeladatokat, hogy begyakorold az új ismeretet. Ha véletlenül elakadnál, akkor megnézheted a példafeladatok megoldását is, de arra kérlek hogy mindig próbáld meg segítség nélkül megoldani a példákat.  
+Ha végeztél az összes példával, az ismeretanyag végén lesz egy teszt feladat is, amelyet egyedül vagy csoportosan kell megoldanotok.  
+  
+### És soha ne felejts el kérdezni ;-)
 
-Írj egy olyan láncolt listát implementáló osztályt `LinkedList` néven, mely `int` típusú értékeket képes tárolni.
-Legyen egy metódusa, melyel egy elemet lehet a végére hozzáadni (`add(int value)`), és egy metódusa, mellyel a megadott
-indexű elemet lehet visszaadni (`get(int index)`).
 
-### Hibakezelés
 
-Ha az `add` függvény bemenete `null`, a metódus dobjon egy `NullPointerException` kivételt.
 
-Ha a `get` függvény bemente olyan index, mely nem valós, tehát vagy negatív szám, vagy nagyobb, mint a lista mérete,
-`IllegalArgumentException` kivételt dobjon.
-
-### Megvalósítási javaslatok
-
-A lista csak az első elemre tartalmaz hivatkozást, és egy elem csak a következő elemre tartalmaz referenciát.
-
-### Tesztesetek
-
-#### Pozitív ágak
-
-[source,java]
-----
-include::{testdir}/week5/MyLinkedListTest.java[lines=15..25]
-----
-
-#### Negatív ágak
-
-[source,java]
-----
-include::{testdir}/week5/MyLinkedListTest.java[lines=27..53]
-----
-
-### Tippek
-
-A lista elemei egy belső osztállyal legyenek reprezentálva, melyek tartalmazzák az értéket, valamint a következő elemre
-egy hivatkozást. A következőképp lehet osztályon belül egy belső osztályt definiálni.
-
-[source,java]
-----
-public class MyCollection {
-
-    private class MyCollectionItem {
-        private Object value;
-
-        private MyCollectionItem refToAnotherItem;
-    }
-
-}
-----
-
-Hozzáadásnál ki kell keresni az utolsó elemet.
