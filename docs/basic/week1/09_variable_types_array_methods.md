@@ -27,7 +27,12 @@ Hatására minden meglévő tömbelem indexe eggyel csökkenni fog.
   
 ![Boolean definíció](/docs/basic/week1/image/variable_types_array_definition.gif)  
   
-### na
+### slice()  
+A tömböt vágja. Két számot vár, start és end a nevük.  
+- start: azt adja meg, hogy hol kezdje a vágást. Ha 0, akkor a tömb elején kezdi, ha mínusz szám, akkor hátulról fogja számolni.  
+- end: azt adja meg hogy melyik elemnél fejezze be a vágást. Ugyanazok igazak rá, mint a start-ra.  
+  __FONTOS: nem módosítja az eredeti tömböt, hanem egy új tömbbel tér vissza.__  
+![Boolean definíció](/docs/basic/week1/image/variable_types_array_definition.gif)  
 
 
 ### Dokumentáció: 
