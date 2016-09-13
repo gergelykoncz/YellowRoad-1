@@ -51,5 +51,3 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 ### Gyakorló feladatok:
 <a href="http://cherryapps.hu/yellow-road" target="_blank">9-es számú gyakorlati feladat.</a>
 
-
-Alapvető metódusok: Push, Pop, Shift, Join, Slice
