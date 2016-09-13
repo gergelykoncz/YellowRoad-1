@@ -23,7 +23,8 @@ Az objektumoknak nincs length tulajdonsága mint a tömböknek, ezért más mód
 ha szeretnénk megtudni az elemeiknek a számát. Erre a legegyszerűbb módszer, ha nem az elemeiket,  
 hanem a kulcsikat számláljuk meg.  
 > __A példában láncolt metódus hívást alkalmazunk.__  
-Ennek lényege, hogy egy függvény által visszaadott típusra azonnal meghívjuk annak szabványos metódusát.  
+Ennek lényege, hogy egy függvény által visszaadott típusra azonnal meghívjuk annak szabványos metódusát  
+vagy lekérjük egy adott tulajdonságát, jelen esetben a tömb elemeinek számát azaz a tömb hosszát.  
 Az Object.keys tömböt ad vissza, majd annak le is kérjük azonnal a length tulajdonságát:  
   
 ![Objektum kulcsok](/docs/basic/week1/image/variable_as_object.gif)  
