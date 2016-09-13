@@ -1,4 +1,4 @@
-## Az Objektum - a tárgy - a dolog  
+## Az Objektum - rugalmas adattárolás  
 Adatok tárolása kulcs - érték párok segítségével.  
   
 ### key - kulcs  
