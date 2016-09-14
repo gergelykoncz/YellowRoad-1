@@ -10,6 +10,7 @@ var testFn = (command) => {
 };
 
 var startSync = () => {
+    console.log(new Date());
     async.series([
         (callback) => {
             let cmd = 'git add --all';
