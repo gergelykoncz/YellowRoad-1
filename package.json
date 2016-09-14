@@ -1,0 +1,22 @@
+{
+  "name": "yellowroad",
+  "version": "0.0.1",
+  "description": "\"YellowRoad teaching platform.\"",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherryApp/YellowRoad.git"
+  },
+  "author": "j.cserko@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cherryApp/YellowRoad/issues"
+  },
+  "homepage": "https://github.com/cherryApp/YellowRoad#readme"
+}
