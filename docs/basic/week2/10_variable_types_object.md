@@ -37,5 +37,5 @@ Az Object.keys tömböt ad vissza, majd annak le is kérjük azonnal a length tu
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object  
   
 ### Gyakorló feladatok:
-<a href="http://cherryapps.hu/yellow-road" target="_blank">10-es számú gyakorlati feladat.</a>  
+<a href="http://37.139.16.100:3333/practice/basic/week2/10_variable_types_object.md" target="_blank">Objektum létrehozása</a>  
   
