@@ -1,0 +1,26 @@
+body {
+	background-color: #f8f8f8;
+}
+
+.CodeMirror {
+	height: 150px;
+	width: 50%;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	box-shadow: 0 0 5px black;
+	font-size: 22px;
+}
+.CodeMirror-scroll {
+	max-height: 200px;
+}
+.CodeMirror pre {
+	padding-left: 7px; line-height: 1.25;
+}
+
+.qunit-panel {
+	display: none;
+}
+
+.task-list {
+	font-size: 16px;
+}

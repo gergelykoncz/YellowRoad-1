@@ -1,0 +1,58 @@
+extends layout
+
+block scripts
+  // Include scripts.
+  script(src='/bower_components/jquery/dist/jquery.min.js')
+  script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
+  script(src='/bower_components/qunit/qunit/qunit.js')
+  script(src='/js/mirror.js')
+  script(src='/js/tests.js')
+
+block content
+  .container
+      .row
+        .col-xs-12
+          .page-header
+            h1
+              span.title Objektum létrehozása 
+              small feladatmegoldás
+      h3 Feladat
+      .row
+        .col-xs-12
+          ul.task-list
+            li Hozz létre egy objektumot "User" néven.
+            li
+              | Legyen az objektumnak két tulajdonsága:
+              br
+              | name, age.
+            li
+              | A tulajdonságok értékei a következőek legyenek:
+              br
+              | 'Joe', 35.
+      h3 Megoldás
+      .row
+        .col-xs-12
+          .row
+            .col-xs-12
+              textarea#student-area
+      .clearfix  
+      .row
+        .col-xs-12
+          .btn-group
+            button#do-test.btn.btn-primary
+              | Teszt
+            button#show-report.btn.btn-success
+              | Részletek
+      .clearfix  
+      .row
+        .col-xs-12.qunit-results
+      .clearfix  
+      .row
+        .col-xs-12.qunit-panel
+          #qunit
+          #qunit-fixture
+    .alert.alert-tepmlate
+      span.glyphicon
+      strong.title
+      span.message
+    
