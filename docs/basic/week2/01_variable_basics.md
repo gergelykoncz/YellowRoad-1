@@ -10,7 +10,7 @@ Azt hogy változót akarunk deklarálni, a var kulcsszóval jelezzük.
 
 > A deklaráció és definíció egy időben is megvalósulhat, ekkor a létrehozás során rögtön értéket is adunk az új változónknak. Ezt mutatja az alábbi példa:
   
-![Változó definiálása](/docs/basic/week1/image/variable_definition.gif)  
+![Változó definiálása](/docs/basic/week2/image/variable_definition.gif)  
   
 #### Felül Definiálás:
 Amikor egy már meglévő változó értékét felül kívánjuk írni, nem kell használnunk a var kulcsszót,  
@@ -19,7 +19,7 @@ Az alábbi példában azt láthatjuk, hogy a változó értékét 10-zel növelj
 Az értékadás esetén először az utasításunk jobb oldala értékelődik ki,  
 majd az itt létrejött érték felülírja a változóban tárolt eredeti értéket.  
   
-![Változó felül-definiálása](/docs/basic/week1/image/variable_redefinition.gif) 
+![Változó felül-definiálása](/docs/basic/week2/image/variable_redefinition.gif) 
 
 #### Dokumentáció:  
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
