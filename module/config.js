@@ -5,6 +5,8 @@ var protocol = 'http://';
 var domain = '';
 var port = 3333;
 
+var testRoot = 'src/test';
+
 var getPublicUrl = () => {
 	if (domain === '') {
 		domain = ip.address();
@@ -17,5 +19,6 @@ module.exports = {
 	protocol: protocol,
 	domain: domain,
 	port: port,
+    testRoot: testRoot,
 	getPublicUrl: getPublicUrl
 };
