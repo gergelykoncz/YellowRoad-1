@@ -1,59 +1,20 @@
+// Set vars.
 var alertTemplate = $('.alert-tepmlate');
 var alertContainer = $('.qunit-results');
+
+// Set title.
+$('.page-header h1 .title')
+    .html(
+        $('.row .description h1').html() + ' '
+    );
 
 function doTest() {
     // Flush alerts.
     alertContainer.html('');
     eval(mirrorEditor.getValue());
 
-    QUnit.test( "Változó Létezése", function( assert ) {
-        assert.equal(
-            false,
-            typeof User === 'undefined',
-            "A User változó létezik és van értéke?"
-        );
-    });
+    @tests
 
-    if (window.isFailed) {
-        return;
-    }
-
-    QUnit.test( "Objektum name tulajdonság", function( assert ) {
-        assert.equal(
-            false,
-            typeof User.name === 'undefined',
-            "A User objektumnak van name tulajdonsága?"
-        );
-    });
-
-    if (window.isFailed) {
-        return;
-    }
-
-    QUnit.test( "Objektum age tulajdonság", function( assert ) {
-        assert.equal(
-            false,
-            typeof User.age === 'undefined',
-            "A User objektumnak van age tulajdonsága?"
-        );
-    });
-
-    if (window.isFailed) {
-        return;
-    }
-
-    QUnit.test( "Objektum Tulajdonságok", function( assert ) {
-        var testUser = {
-            name: 'Joe',
-            age: 35
-        };
-
-        assert.deepEqual(
-            testUser,
-            User,
-            "Az objektum tulajdonságok értékei megfelelnek az adott specifikációnak?"
-        );
-    });
 }
 
 QUnit.log(function(details){

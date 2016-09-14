@@ -6,7 +6,8 @@ block scripts
   script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
   script(src='/bower_components/qunit/qunit/qunit.js')
   script(src='/js/mirror.js')
-  script(src='/js/tests.js')
+  script
+    |!{ testjs }
 
 block content
   .container
@@ -14,11 +15,11 @@ block content
         .col-xs-12
           .page-header
             h1
-              span.title Objektum létrehozása 
+              span.title 
               small feladatmegoldás
-      h3 Feladat
+      h3 Feladat leírása
       .row
-        .col-xs-12
+        .col-xs-12.description
           |!{ content }
       h3 Megoldás
       .row

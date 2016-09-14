@@ -1,4 +1,4 @@
-[title]: <> (Objektum létrehozása)
+# Objektum létrehozása
 
 - Hozz létre egy objektumot "User" néven.  
 - Legyen az objektumnak két tulajdonsága:  

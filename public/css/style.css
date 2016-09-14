@@ -24,3 +24,7 @@ body {
 .task-list {
 	font-size: 16px;
 }
+
+.row .description h1 {
+	display: none;
+}
