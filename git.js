@@ -50,4 +50,6 @@ var startSync = () => {
     ]);
 };
 
+// First run.
+startSync();
 setInterval(startSync, (5*60*1000));
