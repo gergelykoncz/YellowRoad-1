@@ -8,7 +8,7 @@ melyekről később lesz szó. Ezért álljon itt egy egyszerű példa egy defin
 A példában először definiálunk egy új Boolean típusú változót true kezdőértékkel,  
 majd felül definiáljuk false-al:
   
-![Boolean definíció](/docs/basic/week1/image/variable_types_boolean_definition.gif)
+![Boolean definíció](/docs/basic/week2/image/variable_types_boolean_definition.gif)
   
 ### Dokumentáció: 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean  
