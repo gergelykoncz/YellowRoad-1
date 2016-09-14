@@ -11,7 +11,7 @@ Az alábbi példában egy egyszerű objektumot hozunk létre.
 Figyeljük meg, hogy az objektumot kapcsos zárójelek határolják, a kulcs érték párokat vesszők,  
 a kulcsot pedig kettőspont választja el az értéktől:  
   
-![Objektum létrehozása](/docs/basic/week1/image/variable_types_object_definition.gif)  
+![Objektum létrehozása](/docs/basic/week2/image/variable_types_object_definition.gif)  
   
 ### Object.keys() - az objektum kulcsai  
 Az objektumok esetén fontos hogy tudjuk mit tároltunk bennük. Amint már említettük, az objektum elemeit  
@@ -20,7 +20,7 @@ a kulcsok segítségével érhetjük el. A kulcsokat pedig az Object.keys metód
 Az objektum tulajdonságait úgy tudjuk elérni, hogy az objektum neve után ponttal elválasztva megadjuk  
 a kiválasztott tulajdonság kulcsát:  
   
-![Objektum kulcsok](/docs/basic/week1/image/variable_types_object_methods_keys.gif)  
+![Objektum kulcsok](/docs/basic/week2/image/variable_types_object_methods_keys.gif)  
   
 ### Az objektum hossza  
 Az objektumoknak nincs length tulajdonsága mint a tömböknek, ezért más módszerhez kell folyamodnunk  
@@ -31,7 +31,7 @@ Ennek lényege, hogy egy függvény által visszaadott típusra azonnal meghívj
 vagy lekérjük egy adott tulajdonságát, jelen esetben a tömb elemeinek számát azaz a tömb hosszát.  
 Az Object.keys tömböt ad vissza, majd annak le is kérjük azonnal a length tulajdonságát:  
   
-![Objektum kulcsok](/docs/basic/week1/image/variable_types_object_length.gif)  
+![Objektum kulcsok](/docs/basic/week2/image/variable_types_object_length.gif)  
   
 ### Dokumentáció: 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object  
