@@ -8,7 +8,7 @@ Nem szükséges Javascript esetén megadni a típust, amikor először értéket
 értelmező automatikusan beállítja a típusát. Fontos, hogy például Java esetén ez nem így van,  
 ott nekünk kell a típust meghatározni.
   
-![String definiálása](/docs/basic/week1/image/variable_types_string_definition.gif)
+![String definiálása](/docs/basic/week2/image/variable_types_string_definition.gif)
 
 
 ### Dokumentáció: 
