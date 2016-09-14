@@ -50,4 +50,4 @@ var startSync = () => {
     ]);
 };
 
-setInterval(startSync, (5*60));
+setInterval(startSync, (5*60*1000));
