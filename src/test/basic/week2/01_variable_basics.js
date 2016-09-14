@@ -8,11 +8,9 @@ QUnit.test( "Változó Létezése", function( assert ) {
 
 // #
 
-QUnit.test( "Érték ellenőrzése", function( assert ) {
+QUnit.test( "Értékek ellenőrzése", function( assert ) {
     assert.ok(
         training === 99,
         "A training változó értéke 99?"
     );
 });
-
-// #
