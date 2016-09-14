@@ -10,7 +10,7 @@ A Javascript nem különbözteti meg az egész és tört számokat a típus szem
   
 > Az alábbi példában az elemi műveleteket mutatjuk be számok esetén:  
   
-![Elemi műveletek számokkal](/docs/basic/week1/image/variable_number_atomic.gif)
+![Elemi műveletek számokkal](/docs/basic/week2/image/variable_number_atomic.gif)
 
 ### Dokumentáció:  
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number  
