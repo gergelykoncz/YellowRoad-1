@@ -25,5 +25,5 @@ majd az itt létrejött érték felülírja a változóban tárolt eredeti ért�
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
 
 #### Gyakorló feladatok  
-[1-es számú gyakorló feladat.](http://cherryapps.hu/yellow-road)
+<a href="http://37.139.16.100:3333/practice/basic/week2/01_variable_basics" target="_blank">Változók létrehozása</a> 
 
