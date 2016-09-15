@@ -39,4 +39,5 @@ azután pedig azt amire szeretnénk cserélni.
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods  
   
 ### Gyakorló feladatok:  
-<a href="http://cherryapps.hu/yellow-road" target="_blank">6-os számú gyakorlati feladat.</a>
+<a href="http://37.139.16.100:3333/practice/basic/week2/06_variable_types_string_methods" 
+target="_blank">String típus</a>
