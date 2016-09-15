@@ -37,5 +37,6 @@ Az alábbi példákban bemutatom a fenti operátorok használatát:
 ### Dokumentáció: 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean  
 
-### Gyakorló feladatok:
-<a href="http://cherryapps.hu/yellow-road" target="_blank">7-es számú gyakorlati feladat.</a>
+### Gyakorló feladatok:  
+<a href="http://37.139.16.100:3333/practice/basic/week2/07_variable_types_boolean" 
+target="_blank">Boolean típu</a>  
