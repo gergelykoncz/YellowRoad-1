@@ -1,6 +1,13 @@
 ## Number metódusok  
-Ahogy a Változó mint Objektum résznél láttuk, minden elemi típusnak vannak képességei vagy szakszerű kifejezéssel metódusai.  
-Most néhángy fontosabb metódust fogunk áttekinteni a Number objektumhoz.
+Ahogy a Változó mint Objektum résznél láttuk, minden elemi típusnak vannak 
+képességei vagy szakszerű kifejezéssel metódusai.  
+Most néhángy fontosabb metódust fogunk áttekinteni a Number objektumhoz.  
+> __Metódusok elérése:__ a változó neve után közvetlenül pontot teszünk, 
+majd beírjuk a metódus nevét.  
+  
+> __Metódus hívás:__ zárojeleket teszünk a metódus neve után - ()  
+Ha a metódusnak további adatokra van szüksége, azokat a zárójelek között adjuk meg.  
+Ezek az úgynevezett paraméterek.  
 
 ### valueOf()  
 Ezzel a metódussal ki tudjuk olvasni a változónk aktuális értékét:  
