@@ -44,4 +44,4 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 ### Gyakorló feladatok:
 <a href="http://37.139.16.100:3333/practice/basic/week2/08_variable_types_array" 
-target="_blank">Boolean típus</a>  
+target="_blank">Array alapok</a>  
