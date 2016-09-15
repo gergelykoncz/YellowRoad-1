@@ -76,7 +76,8 @@ QUnit.test( "Érték ellenőrzése: type", function( assert ) {
 
 QUnit.test("Használat ellenőrzése: logikai kifejezés", function( assert ) {
     assert.ok(
-        /.*active.*\&\&.*hourly.*\>.*2.*/.test(currentEditorValue),
+        /.*active.*\&\&.*hourly.*\>.*2.*/.test(currentEditorValue) && 
+        currentEditorValue.indexOf('typeof') > -1,
         "Használva volt logikai kifejezés?"
     );
 });

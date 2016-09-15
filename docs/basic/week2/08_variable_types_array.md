@@ -1,4 +1,4 @@
-## Array, a tömbök világa  
+## Array - tömbösítsünk   
 Értékek indexelt halmaza. Ez a tömb. Úgy kell elképzelni, mint egy polcot ahová felpakoljuk a dolgokat.  
 Az index az a mutató, amivel elérjük a tömb egyes elemeit. Tehát minden elemnek van egy száma a tömbön belül,  
 amivel le tudjuk kérni az értékét vagy módosítani tudjuk.  
@@ -43,4 +43,5 @@ Ellenkező esetben az eredmény false - hamis - azaz nem tömböt adtunk át az 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array  
 
 ### Gyakorló feladatok:
-<a href="http://cherryapps.hu/yellow-road" target="_blank">8-as számú gyakorlati feladat.</a>
+<a href="http://37.139.16.100:3333/practice/basic/week2/08_variable_types_array" 
+target="_blank">Boolean típus</a>  
