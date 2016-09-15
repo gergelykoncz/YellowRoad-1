@@ -27,4 +27,5 @@ a Number típusú változót.
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number  
 
 ### Gyakorló feladatok:  
-[3-as számú gyakorlati feladat.](http://cherryapps.hu/yellow-road)
+<a href="http://37.139.16.100:3333/practice/basic/week2/03_variable_types_number" 
+target="_blank">Number típus</a>
