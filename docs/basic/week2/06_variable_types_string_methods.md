@@ -40,4 +40,4 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
   
 ### Gyakorló feladatok:  
 <a href="http://37.139.16.100:3333/practice/basic/week2/06_variable_types_string_methods" 
-target="_blank">String típus</a>
+target="_blank">String tulajdonságok és metódusok</a>
