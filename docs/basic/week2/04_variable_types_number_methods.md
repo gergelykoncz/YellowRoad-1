@@ -28,5 +28,5 @@ A tizedesjegyek számát tudjuk vele módosítani:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#Methods
 
 ### Gyakorló feladatok:  
-<a href="http://37.139.16.100:3333/practice/basic/week2/03_variable_types_number_methods" 
+<a href="http://37.139.16.100:3333/practice/basic/week2/04_variable_types_number_methods" 
 target="_blank">Number metódusok</a>

@@ -9,9 +9,12 @@ $('.page-header h1 .title')
     );
 
 function doTest() {
+    // Get editor value.
+    var currentEditorValue = mirrorEditor.getValue();
+
     // Flush alerts.
     alertContainer.html('');
-    eval(mirrorEditor.getValue());
+    eval(currentEditorValue);
 
     @tests
 
