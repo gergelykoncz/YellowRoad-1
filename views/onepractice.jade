@@ -48,4 +48,16 @@ block content
       | 
       strong.title
       span.message
+    div#messageModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
+      .modal-dialog(role='document')
+        .modal-content
+          .modal-header
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') ×
+            h4#myModalLabel.modal-title Modal title
+          .modal-body
+            | ...
+          .modal-footer
+            button.btn.btn-primary(type='button', data-dismiss='modal') Ok
+            // button.btn.btn-primary(type='button') Save changes
     

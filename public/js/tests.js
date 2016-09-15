@@ -54,3 +54,22 @@ QUnit.log(function(details){
             .appendTo(alertContainer);
     }
 });
+
+// Show message for students.
+function showModalMessage(message, title) {
+    var modal = $('#messageModal');
+
+    if (message) {
+        modal
+            .find('.modal-body')
+            .html(message);
+    }
+
+    if (title) {
+        modal 
+            .find('.modal-title')
+            .html(title)
+    }
+        
+    modal.modal('show');
+}
