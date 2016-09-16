@@ -5,7 +5,8 @@ var reportButton = document.querySelector('#show-report');
 var mirrorEditor = CodeMirror.fromTextArea(myTextarea, {
 	lineNumbers: true,
 	mode: "javascript",
-	theme: 'monokai'
+	theme: 'monokai',
+	viewportMargin: Infinity
 });
 
 testButton.addEventListener('click', function(){

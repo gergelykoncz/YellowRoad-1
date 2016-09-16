@@ -28,6 +28,12 @@ Azaz a tömb első elemét 0 indexel érjük el, és nem 1-el.
 indexük segítségével:  
   
 ![Boolean definíció](/docs/basic/week2/image/variable_types_array_index.gif)  
+  
+### Több dimenziós tömbök  
+Ezeknél egy tömböt egy másik tömbbe ágyazunk.  
+Például: var arr = [true, ['elso', 'masodik', 'harmadik'], 'Joe'];  
+A példában a tömb második eleme szintén egy tömb.  
+A beágyazott tömb második elemének elérése: arr[1][1]  
 
 ### isArray(), tömb azonosítása
 A munkánk során előfordul, hogy meg kell állapítanunk egy változóról hogy Array típusú-e?  
