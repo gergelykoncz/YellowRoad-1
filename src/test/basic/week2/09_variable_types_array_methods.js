@@ -11,7 +11,7 @@ QUnit.test( "Változó ellenőrzése: movie", function( assert ) {
 QUnit.test( "Változó ellenőrzése: movie[3]", function( assert ) {
     assert.ok(
         Array.isArray(movie[3]),
-        "A movie tömb harmadik eleme szintén egy tömb?"
+        "A movie tömb negyedik eleme szintén egy tömb?"
     );
 });
 
@@ -100,10 +100,10 @@ QUnit.test( "Érték ellenőrzése: classic", function( assert ) {
 
 QUnit.test("Használat ellenőrzése: tömb indexek", function( assert ) {
     console.log(currentEditorValue);
-    assert.ok(
-        /.*movie\[3\]\[1\].*\=.*\'Piedone\'.*/.test(currentEditorValue) && 
-        /.*movie\[3\]\[3\].*\=.*\'Anulu\'.*/.test(currentEditorValue),
-        "Használtak tömb indexeket?"
+    assert.ok( 
+        /.*movie\[3\]\[1\][ ]*\=.*Piedone.*/.test(currentEditorValue) && 
+        /.*movie\[3\]\[3\].*\=.*Anulu.*/.test(currentEditorValue),
+        "Használt tömb indexeket?"
     );
 });
 
@@ -112,7 +112,7 @@ QUnit.test("Használat ellenőrzése: tömb indexek", function( assert ) {
 QUnit.test("Használat ellenőrzése: logikai operátorok", function( assert ) {
     assert.ok(
         /.*\&\&.*movie\[4\].*\<.*1990.*/.test(currentEditorValue),
-        "Használtak logikai kifejezéseket?"
+        "Használt logikai kifejezéseket?"
     );
 });
 
