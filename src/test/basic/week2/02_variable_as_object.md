@@ -2,7 +2,7 @@
 - Definiálj egy új változót:  
   neve: bevetel,
   értéke: 10000  
-- Határozd meg bevetel a változó típusát és mentsd el egy másik változóba:  
+- Határozd meg a bevetel változó típusát és mentsd el egy másik változóba:  
   neve: tipus  
 - Határozd meg a tipus változó típusát és mentsd el egy harmadik változóba:  
   neve: tipus2 
