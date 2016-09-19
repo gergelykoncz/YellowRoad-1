@@ -23,7 +23,7 @@ vizsgálni, azaz kisebb nagyobb logikai kifejezést nem tud értelmezni.
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch  
   
 ### Gyakorló feladatok:
-<a href="http://37.139.16.100:3333/practice/basic/week2/statement_switch" 
+<a href="http://37.139.16.100:3333/practice/basic/week2/15_statement_switch" 
 target="_blank">Switch, a kapcsoló</a>   
 
 
