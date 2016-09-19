@@ -53,6 +53,13 @@ QUnit.log(function(details){
             .parent()
             .appendTo(alertContainer);
     }
+
+    // Scroll to solution.
+    var scrollTimeout = setTimeout(function(){
+        clearTimeout(scrollTimeout);
+        var p = $('h3.solution').offset();
+        window.scrollTo(0, (p.top - 10));
+    }, 500);
 });
 
 // Show message for students.
