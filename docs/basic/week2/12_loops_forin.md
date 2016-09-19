@@ -1,7 +1,7 @@
 # For in ciklus  
 Több dologban különbözik a For ciklustól.  
 - Nincs benne iterátor változó.  
-- A megadott Array vagy Objektum kulcsit járja be.  
+- A megadott Array vagy Objektum kulcsait járja be.  
   
 ### Használata:  
 - Paraméterei:  
@@ -34,7 +34,7 @@ objektumok kulcsait.
 ![Objektum kulcsok](/docs/basic/week2/image/loops_forin_continue_break.gif)  
   
 ### Dokumentáció: 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for  
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in  
   
 ### Gyakorló feladatok:
 <a href="http://37.139.16.100:3333/practice/basic/week2/12_loops_forin" 
