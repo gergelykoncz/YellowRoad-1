@@ -4,15 +4,16 @@ body {
 
 .CodeMirror {
 	height: auto;
+	min-height: 100px;
 	width: 100%;
 	border: 1px solid #ddd;
 	border-radius: 3px;
 	box-shadow: 0 0 5px black;
 	font-size: 22px;
 }
-/*.CodeMirror-scroll {
-	max-height: 200px;
-}*/
+.CodeMirror-scroll {
+	min-height: 100px;
+}
 .CodeMirror pre {
 	padding-left: 7px; line-height: 1.25;
 }
