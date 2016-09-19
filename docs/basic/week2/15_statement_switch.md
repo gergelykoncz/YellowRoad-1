@@ -13,9 +13,9 @@ Kulcsszavak:
   - default: kifejezés - ha egyik case sem volt igaz, akkor ez fog lefutni  
 
 Előnye hogy gyorsabb mint az else...if, viszont csak konkrét értékeket lehet vele 
-vizsgálni, azaz kisebb nagyobb logikai kifejezést nem tud értelmezni.  
+vizsgálni, azaz például kisebb-nagyobb logikai kifejezést nem tud értelmezni.  
   
-> Autókat hasonlítok össze és megállapítom hogy milyen :  
+> Megkeresem a hét napjának nevét a száma alapján:  
 
 ![Switch statement](/docs/basic/week2/image/statement_switch.gif)  
 
