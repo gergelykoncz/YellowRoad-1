@@ -17,7 +17,7 @@ figyeljük megfelelően. Ekkor fordul elő, hogy a feltétel mindig igaz marad
 és a ciklus végtelen hurokba kerül.  
 A különböző értelmezők általában bizonyos számú futás után hibát adnak és  
 leállnak, vagy lefagy a felület, mint például az alábbi esetben is.  
-__Mindig figyeljünk oda a feltétel megfelelő vizsgálatára!__  
+__Mindig figyeljünk oda a feltétel megfelelő frissítésére!__  
   
 > Az alábbi példa egy végtelen ciklust mutat be.  
 A probléma az, hogy a feltételt elfelejtettem módosítani a ciklusmagban:  
