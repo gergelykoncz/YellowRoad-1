@@ -17,7 +17,7 @@ Ciklusmag:
     
 Az alábbi példa egy for ciklust mutat be:  
   
-![Objektum kulcsok](/docs/basic/week2/image/variable_types_object_length.gif)  
+![Objektum kulcsok](/docs/basic/week2/image/loops_for.gif)  
 
 > __Előltesztelő ciklus:__  
 Először megvizsgáljuk, hogy a feltételünk igaz-e, és ha igen akkor 
@@ -33,7 +33,7 @@ végére nem érünk, tehát ismernünk kell hozzá a hosszát.
   
 Tömb bejárása For ciklussal:  
   
-![Objektum kulcsok](/docs/basic/week2/image/variable_types_object_length.gif)  
+![Objektum kulcsok](/docs/basic/week2/image/loops_for_over_array.gif)  
 
 > __Objektum bejárása ciklussal:__  
 Egy Objektum bejárása ennél bonyolultabb feladat.  
@@ -44,7 +44,7 @@ Kicsit bonyolultnak hangzik? Lesz ez még jobb is ;-)
     
 Objektum bejárása For ciklussal:  
   
-![Objektum kulcsok](/docs/basic/week2/image/variable_types_object_length.gif)  
+![Objektum kulcsok](/docs/basic/week2/image/loops_for_over_object.gif)  
   
 ### continue és break  
 > __continue:__ ha valamiért úgy döntünk hogy mégsem akarjuk lefuttatni a ciklusmagot, akkor a  
@@ -55,7 +55,7 @@ megszakítja a ciklust, azaz a ciklusmag többet nem kerül végrehajtásra,
   
 Continue és break használata:  
   
-![Objektum kulcsok](/docs/basic/week2/image/variable_types_object_length.gif)  
+![Objektum kulcsok](/docs/basic/week2/image/loops_for_continue_break.gif)  
 
   
 ### Dokumentáció: 
