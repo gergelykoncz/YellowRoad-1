@@ -9,6 +9,23 @@ var mirrorEditor = CodeMirror.fromTextArea(myTextarea, {
 	viewportMargin: Infinity
 });
 
+// Set readOnly lines.
+var endLine = mirrorEditor.lineCount();
+if (endLine > 0) {
+	for (var i = 0; i < endLine; i++) {
+		if (mirrorEditor.getLine(i) !== '') {
+			mirrorEditor.markText(
+				{line: i, ch: 0}, 
+				{line: i+1, ch: 0}, 
+				{
+					readOnly: 'nocursor',
+					className: 'disabled-text'
+				}
+			);
+		}
+	}
+}
+
 testButton.addEventListener('click', function(){
 	doTest();
 });

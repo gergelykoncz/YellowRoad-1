@@ -4,6 +4,7 @@ var path = require('path');
 var markdown = require('../module/markdown');
 var config = require('../module/config');
 var fs = require('fs');
+var testGenerator = require('../module/testgenerator');
 
 /* GET practice page. */
 router.get('/', function(req, res, next) {
@@ -20,24 +21,12 @@ router.get('/:path/:week/:fname', function(req, res, next) {
         req.params.week,
         req.params.fname);
 
-    // Convert .md to html.
-    markdown.convert(filePath+'.md', (html) => {
-        // Get js file.
-        var testFile = fs.readFileSync(
-            path.join(config.vars.dirname, 'public/js/tests.js'),
-            'utf8');
-        var tests = fs.readFileSync(filePath+'.js', 'utf8');
-        var testjs = testFile
-                        .replace(/\@tests/, tests)
-                        .replace(
-                            /\/\/ \#/g,
-                            'if (window.isFailed){return;}'
-                        );
-
+    testGenerator.generate(filePath, (html, testjs, content) => {
         res.render('onepractice', {
             content: html,
-            testjs: testjs
-        });        
+            testjs: testjs,
+            testContent: content
+        });
     });
 });
 
