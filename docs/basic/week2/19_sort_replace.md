@@ -1,13 +1,16 @@
-var arr = [55,9,5,3,1];
-for (var i = 0; i < arr.length-1; i++) {
-    console.log(arr[i]);
-    for (var j = i+1; j < arr.length; j++) {
-        console.log(arr[i]+' > '+arr[j]);
-        if (arr[i] > arr[j]) {
-            var temp = [arr[i], arr[j]];
-            arr[i] = temp[1];
-            arr[j] = temp[0];
+var Users = [
+    {name: 'Jack', age: 33},
+    {name: 'Filpo', age: 77},
+    {name: 'Jamie', age: 44},
+    {name: 'Istvan', age: 22}
+];
+undefined
+for (var i = 0; i < Users.length-1; i++) {
+    for (var j = i+1; j < Users.length; j++) {
+        if (Users[i].age > Users[j].age) {
+            var temp = [Users[i], Users[j]];
+            Users[i] = temp[1];
+            Users[j] = temp[0];   
         }
     }
 }
-console.log(arr);
