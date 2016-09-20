@@ -1,3 +1,4 @@
+'use strict';
 var path = require('path');
 var markdown = require('./markdown');
 var config = require('./config');
