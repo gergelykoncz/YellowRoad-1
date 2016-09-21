@@ -1,8 +1,5 @@
-## A git telepítése és beállítása: config
-
-#### Telepítés
+## A git telepítése
 A gitet Windowsos telepítőjét letölthetjük innen: https://git-scm.com/download/win
- 
 Menjünk végig a telepítő lépésein együtt:
 
 ##### Licenszfeltételek elfogadása
@@ -49,7 +46,5 @@ A telepítés befejeztével ellenőrizzük, hogy sikeres volt-e:
 Sikeres telepítés után a git "használati utasítását" láthatjuk a képernyőn.
 
 #### Dokumentáció:  
-https://git-scm.com/download/win
-https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
-Lokálisan: git config --help
+- https://git-scm.com/download/win
+- https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
