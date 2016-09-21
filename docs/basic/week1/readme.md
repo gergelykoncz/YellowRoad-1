@@ -6,7 +6,7 @@
 - Verziókövetés
     - [A verziókövetés alapjai](./11_source_control_basics.md)
     - Git
-    - [Git telepítés és beállítások: config](./13_git_install_config.md)
+    - [A git telepítése és beállítása: config](./13_git_install_config.md)
     - [Repo létrehozása saját gépen: init](./14_git_init.md)
     - [Távoli repo klónozása: clone](./15_git_clone.md)
     - Módosítások és a repo állapota: commit és status
