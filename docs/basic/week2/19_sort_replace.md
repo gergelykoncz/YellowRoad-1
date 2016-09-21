@@ -33,5 +33,5 @@ egy ciklusban az összeset meg tudjuk kapni, nem kell minden számításhoz
   
   
 ### Gyakorló feladatok:
-<a href="http://37.139.16.100:3333/practice/basic/week2/18_logic_replace_order" 
+<a href="http://37.139.16.100:3333/practice/basic/week2/19_sort_replace" 
 target="_blank">Minimum - Maximum - Átlag</a>  
